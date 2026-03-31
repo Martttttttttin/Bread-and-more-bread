@@ -240,7 +240,7 @@
             <div class="info-card">
                 <div class="info-card__body">
                     <strong>Ubicación</strong>
-                    <span>Av. Primavera 1234</span>
+                    <span>Av. Alameda 121</span>
                     <span>Santiago de Surco, Perú</span>
                 </div>
             </div>
