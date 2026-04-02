@@ -648,7 +648,7 @@ model-viewer {
 }
 
 .prod-row__info--light {
-    background: var(--espresso);
+    background: #6B4423;
 }
 
 .prod-row__num {
