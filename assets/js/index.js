@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (hamburger && mobileMenu) {
         hamburger.addEventListener('click', () => {
             mobileMenu.classList.toggle('open');
+            hamburger.classList.toggle('is-active');
             const isOpen = mobileMenu.classList.contains('open');
             document.body.style.overflow = isOpen ? 'hidden' : '';
         });
@@ -23,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.closeMobile = () => {
         if (mobileMenu) mobileMenu.classList.remove('open');
+        if (hamburger) hamburger.classList.remove('is-active');
         document.body.style.overflow = '';
     };
 

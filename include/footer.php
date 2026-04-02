@@ -14,15 +14,15 @@
         <div class="footer__contact">
             <p>Av. Primavera 1234</p>
             <p>Santiago de Surco, Perú</p>
-            <p>+51 912 345 678</p>
+            <p>+51 945 331 391</p>
         </div>
     </div>
     <div class="footer__bottom">
-        <span class="footer__copy">© 2024 Popi's Bread. Todos los derechos reservados.</span>
-        <span class="footer__tagline">Hecho con ♥ y masa madre</span>
+        <span class="footer__copy">© 2026 Popi's Bread. Todos los derechos reservados.</span>
     </div>
 </footer>
 
+<link rel="stylesheet" href="../assets/styles/footer.css">
 <script src="../assets/js/index.js"></script>
 </body>
 

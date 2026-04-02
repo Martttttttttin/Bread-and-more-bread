@@ -18,10 +18,6 @@
             <a href="#galeria" class="btn btn--outline">Ver galería</a>
         </div>
     </div>
-    <div class="hero__scroll-indicator">
-        <div class="hero__scroll-text">Scroll</div>
-        <div class="hero__scroll-bar"></div>
-    </div>
     <div class="hero__grain"></div>
 </section>
 
@@ -54,7 +50,7 @@
             <h2>Pan con alma,<br>hecho a mano</h2>
             <p>Cada pieza que sale de nuestro horno lleva décadas de tradición. Usamos harinas seleccionadas, masa madre
                 viva y el tiempo que cada pan necesita. Sin prisas. Sin atajos. Solo el oficio de siempre.</p>
-            <a href="#productos" class="btn btn--dark">Conoce nuestro proceso</a>
+            <a href="#productos" class="btn btn--gold">Conoce nuestro proceso</a>
         </div>
         <div class="about__stats reveal">
             <div class="stat">
@@ -223,7 +219,6 @@
 
 <!-- ===== CONTACTO / CTA ===== -->
 <section class="contacto" id="contacto">
-    <div class="contacto__deco" aria-hidden="true">PAN</div>
     <div class="contacto__inner reveal">
         <span class="section-label">Visítanos</span>
         <h2>El pan recién<br>horneado te espera</h2>
