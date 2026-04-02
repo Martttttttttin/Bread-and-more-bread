@@ -22,8 +22,8 @@
     </div>
 </footer>
 
-<link rel="stylesheet" href="../assets/styles/footer.css">
-<script src="../assets/js/index.js"></script>
+<link rel="stylesheet" href="assets/styles/footer.css">
+<script src="assets/js/index.js"></script>
 </body>
 
 </html>

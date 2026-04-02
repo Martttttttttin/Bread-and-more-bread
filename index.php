@@ -1,8 +1,8 @@
-<?php include '../include/header.php'; ?>
+<?php include 'include/header.php'; ?>
 
 <!-- ===== HERO ===== -->
 <section class="hero" id="inicio">
-    <div class="hero__bg" style="background-image: url('../assets/img/panaderia banner.webp')"></div>
+        <div class="hero__bg" style="background-image: url('assets/img/panaderia banner.webp')"></div>
     <div class="hero__overlay"></div>
     <div class="hero__content">
         <span class="hero__eyebrow">Artesanal &nbsp;·&nbsp; Tradicional &nbsp;·&nbsp; Único</span>
@@ -83,7 +83,7 @@
     <div class="prod-row" data-dir="ltr">
         <div class="prod-row__viewer">
             <div class="prod-row__viewer-inner">
-                <model-viewer src="../assets/3D/plaggy_cc0-baguette-473.glb" alt="Baguette artesanal 3D" auto-rotate
+                <model-viewer src="assets/3D/plaggy_cc0-baguette-473.glb" alt="Baguette artesanal 3D" auto-rotate
                     camera-controls shadow-intensity="2" shadow-softness="1" environment-image="neutral" exposure="1.2">
                 </model-viewer>
                 <span class="prod-row__badge">01</span>
@@ -107,7 +107,7 @@
     <div class="prod-row" data-dir="rtl">
         <div class="prod-row__viewer">
             <div class="prod-row__viewer-inner prod-row__viewer-inner--dark">
-                <model-viewer src="../assets/3D/plaggy_cc0-bread-roll-480.glb" alt="Pan de campo 3D" auto-rotate
+                <model-viewer src="assets/3D/plaggy_cc0-bread-roll-480.glb" alt="Pan de campo 3D" auto-rotate
                     camera-controls shadow-intensity="2" shadow-softness="1" environment-image="neutral" exposure="1.2">
                 </model-viewer>
                 <span class="prod-row__badge prod-row__badge--light prod-row__badge--right">02</span>
@@ -131,7 +131,7 @@
     <div class="prod-row" data-dir="ltr">
         <div class="prod-row__viewer">
             <div class="prod-row__viewer-inner">
-                <model-viewer src="../assets/3D/plaggy_cc0-croissant-512.glb" alt="Croissant de mantequilla 3D"
+                <model-viewer src="assets/3D/plaggy_cc0-croissant-512.glb" alt="Croissant de mantequilla 3D"
                     auto-rotate camera-controls shadow-intensity="2" shadow-softness="1" environment-image="neutral"
                     exposure="1.2">
                 </model-viewer>
@@ -156,7 +156,7 @@
     <div class="prod-row" data-dir="rtl">
         <div class="prod-row__viewer">
             <div class="prod-row__viewer-inner prod-row__viewer-inner--dark">
-                <model-viewer src="../assets/3D/plaggy_cc0-slice-of-bread-597.glb" alt="Pan de molde artesanal 3D"
+                <model-viewer src="assets/3D/plaggy_cc0-slice-of-bread-597.glb" alt="Pan de molde artesanal 3D"
                     auto-rotate camera-controls shadow-intensity="2" shadow-softness="1" environment-image="neutral"
                     exposure="1.2">
                 </model-viewer>
@@ -187,31 +187,31 @@
 
     <div class="galeria__grid">
         <div class="galeria__item galeria__item--featured reveal">
-            <img src="../assets/img/congerdesign-bread-4642686.webp" alt="Pan artesanal variedad" loading="lazy">
+            <img src="assets/img/congerdesign-bread-4642686.webp" alt="Pan artesanal variedad" loading="lazy">
             <div class="galeria__caption"><span>Variedades artesanales</span></div>
         </div>
         <div class="galeria__item reveal">
-            <img src="../assets/img/couleur-bread-1281053_1920.webp" alt="Pan artesanal couleur" loading="lazy">
+            <img src="assets/img/couleur-bread-1281053_1920.webp" alt="Pan artesanal couleur" loading="lazy">
             <div class="galeria__caption"><span>De nuestro obrador</span></div>
         </div>
         <div class="galeria__item reveal">
-            <img src="../assets/img/jackmac34-bread-1761197.webp" alt="Pan recién horneado" loading="lazy">
+            <img src="assets/img/jackmac34-bread-1761197.webp" alt="Pan recién horneado" loading="lazy">
             <div class="galeria__caption"><span>Recién horneado</span></div>
         </div>
         <div class="galeria__item reveal">
-            <img src="../assets/img/pexels-bread-1284438.webp" alt="Panes artesanales" loading="lazy">
+            <img src="assets/img/pexels-bread-1284438.webp" alt="Panes artesanales" loading="lazy">
             <div class="galeria__caption"><span>Artesanía panadera</span></div>
         </div>
         <div class="galeria__item galeria__item--wide reveal">
-            <img src="../assets/img/tiemaoanh-bread-6245204.webp" alt="Masa madre proceso" loading="lazy">
+            <img src="assets/img/tiemaoanh-bread-6245204.webp" alt="Masa madre proceso" loading="lazy">
             <div class="galeria__caption"><span>El proceso</span></div>
         </div>
         <div class="galeria__item reveal">
-            <img src="../assets/img/vugarahmadov-bread-6486963.webp" alt="Elaboración artesanal" loading="lazy">
+            <img src="assets/img/vugarahmadov-bread-6486963.webp" alt="Elaboración artesanal" loading="lazy">
             <div class="galeria__caption"><span>Manos artesanas</span></div>
         </div>
         <div class="galeria__item reveal">
-            <img src="../assets/img/wounds_and_cracks-bread-8364737.webp" alt="Corteza perfecta" loading="lazy">
+            <img src="assets/img/wounds_and_cracks-bread-8364737.webp" alt="Corteza perfecta" loading="lazy">
             <div class="galeria__caption"><span>Corteza perfecta</span></div>
         </div>
     </div>
@@ -251,4 +251,4 @@
     </div>
 </section>
 
-<?php include '../include/footer.php'; ?>
+<?php include 'include/footer.php'; ?>
