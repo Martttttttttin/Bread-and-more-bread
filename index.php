@@ -1,4 +1,9 @@
-<?php include 'include/header.php'; ?>
+<?php
+// ===== CACHÉ =====
+header("Cache-Control: public, max-age=3600");
+header("Expires: " . gmdate("D, d M Y H:i:s", time() + 3600) . " GMT");
+
+include 'include/header.php'; ?>
 
 <!-- ===== HERO ===== -->
 <section class="hero" id="inicio">
@@ -83,8 +88,13 @@
     <div class="prod-row" data-dir="ltr">
         <div class="prod-row__viewer">
             <div class="prod-row__viewer-inner">
-                <model-viewer src="assets/3D/plaggy_cc0-baguette-473.glb" alt="Baguette artesanal 3D" auto-rotate
-                    camera-controls shadow-intensity="2" shadow-softness="1" environment-image="neutral" exposure="1.2">
+                <model-viewer src="assets/3D/plaggy_cc0-baguette-473.glb"
+                    poster="assets/img/bagette.webp"
+                    loading="lazy"
+                    alt="Baguette artesanal 3D"
+                    auto-rotate camera-controls
+                    shadow-intensity="2" shadow-softness="1"
+                    environment-image="neutral" exposure="1.2">
                 </model-viewer>
                 <span class="prod-row__badge">01</span>
             </div>
@@ -107,8 +117,13 @@
     <div class="prod-row" data-dir="rtl">
         <div class="prod-row__viewer">
             <div class="prod-row__viewer-inner prod-row__viewer-inner--dark">
-                <model-viewer src="assets/3D/plaggy_cc0-bread-roll-480.glb" alt="Pan de campo 3D" auto-rotate
-                    camera-controls shadow-intensity="2" shadow-softness="1" environment-image="neutral" exposure="1.2">
+                <model-viewer src="assets/3D/plaggy_cc0-bread-roll-480.glb"
+                    poster="assets/img/pan.webp"
+                    loading="lazy"
+                    alt="Pan de campo 3D"
+                    auto-rotate camera-controls
+                    shadow-intensity="2" shadow-softness="1"
+                    environment-image="neutral" exposure="1.2">
                 </model-viewer>
                 <span class="prod-row__badge prod-row__badge--light prod-row__badge--right">02</span>
             </div>
@@ -131,9 +146,13 @@
     <div class="prod-row" data-dir="ltr">
         <div class="prod-row__viewer">
             <div class="prod-row__viewer-inner">
-                <model-viewer src="assets/3D/plaggy_cc0-croissant-512.glb" alt="Croissant de mantequilla 3D"
-                    auto-rotate camera-controls shadow-intensity="2" shadow-softness="1" environment-image="neutral"
-                    exposure="1.2">
+                <model-viewer src="assets/3D/plaggy_cc0-croissant-512.glb"
+                    poster="assets/img/croissant.webp"
+                    loading="lazy"
+                    alt="Croissant de mantequilla 3D"
+                    auto-rotate camera-controls
+                    shadow-intensity="2" shadow-softness="1"
+                    environment-image="neutral" exposure="1.2">
                 </model-viewer>
                 <span class="prod-row__badge">03</span>
             </div>
@@ -156,9 +175,13 @@
     <div class="prod-row" data-dir="rtl">
         <div class="prod-row__viewer">
             <div class="prod-row__viewer-inner prod-row__viewer-inner--dark">
-                <model-viewer src="assets/3D/plaggy_cc0-slice-of-bread-597.glb" alt="Pan de molde artesanal 3D"
-                    auto-rotate camera-controls shadow-intensity="2" shadow-softness="1" environment-image="neutral"
-                    exposure="1.2">
+                <model-viewer src="assets/3D/plaggy_cc0-slice-of-bread-597.glb"
+                    poster="assets/img/pan-molde.webp"
+                    loading="lazy"
+                    alt="Pan de molde artesanal 3D"
+                    auto-rotate camera-controls
+                    shadow-intensity="2" shadow-softness="1"
+                    environment-image="neutral" exposure="1.2">
                 </model-viewer>
                 <span class="prod-row__badge prod-row__badge--light prod-row__badge--right">04</span>
             </div>
