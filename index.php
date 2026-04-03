@@ -7,14 +7,19 @@ include 'include/header.php';
 <!-- ===== HERO ===== -->
 <section class="hero" id="inicio">
 
-  <!-- ✅ FIX LCP: img oculta fuerza al browser a priorizar la imagen del hero -->
-  <img
-    src="assets/img/panaderia banner.webp"
-    alt=""
-    aria-hidden="true"
-    fetchpriority="high"
-    decoding="sync"
-    style="position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;z-index:-1;">
+  <!-- picture: imagen pequeña en móvil, grande en desktop -->
+  <picture>
+    <source
+      media="(max-width: 768px)"
+      srcset="assets/img/panaderia banner-mobile.webp">
+    <img
+      src="assets/img/panaderia banner.webp"
+      alt=""
+      aria-hidden="true"
+      fetchpriority="high"
+      decoding="sync"
+      style="position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;z-index:-1;">
+  </picture>
 
   <div class="hero__bg" style="background-image: url('assets/img/panaderia banner.webp')"></div>
   <div class="hero__overlay"></div>
@@ -85,7 +90,6 @@ include 'include/header.php';
 </section>
 
 <!-- ===== PRODUCTOS 3D ===== -->
-<!-- ✅ model-viewer se carga de forma diferida desde index.js -->
 <section class="productos" id="productos">
   <div class="productos__header reveal">
     <span class="section-label">Nuestros productos</span>
@@ -217,8 +221,6 @@ include 'include/header.php';
   </div>
 
   <div class="galeria__grid">
-
-    <!-- ✅ FIX: width + height en todas las imágenes evita layout shift (CLS) -->
     <div class="galeria__item galeria__item--featured reveal">
       <img src="assets/img/congerdesign-bread-4642686.webp"
            alt="Pan artesanal variedad"
@@ -226,7 +228,6 @@ include 'include/header.php';
            width="1200" height="800">
       <div class="galeria__caption"><span>Variedades artesanales</span></div>
     </div>
-
     <div class="galeria__item reveal">
       <img src="assets/img/couleur-bread-1281053_1920.webp"
            alt="Pan artesanal couleur"
@@ -234,7 +235,6 @@ include 'include/header.php';
            width="800" height="600">
       <div class="galeria__caption"><span>De nuestro obrador</span></div>
     </div>
-
     <div class="galeria__item reveal">
       <img src="assets/img/jackmac34-bread-1761197.webp"
            alt="Pan recién horneado"
@@ -242,7 +242,6 @@ include 'include/header.php';
            width="800" height="600">
       <div class="galeria__caption"><span>Recién horneado</span></div>
     </div>
-
     <div class="galeria__item reveal">
       <img src="assets/img/pexels-bread-1284438.webp"
            alt="Panes artesanales"
@@ -250,7 +249,6 @@ include 'include/header.php';
            width="800" height="600">
       <div class="galeria__caption"><span>Artesanía panadera</span></div>
     </div>
-
     <div class="galeria__item galeria__item--wide reveal">
       <img src="assets/img/tiemaoanh-bread-6245204.webp"
            alt="Masa madre proceso"
@@ -258,7 +256,6 @@ include 'include/header.php';
            width="1200" height="800">
       <div class="galeria__caption"><span>El proceso</span></div>
     </div>
-
     <div class="galeria__item reveal">
       <img src="assets/img/vugarahmadov-bread-6486963.webp"
            alt="Elaboración artesanal"
@@ -266,7 +263,6 @@ include 'include/header.php';
            width="800" height="600">
       <div class="galeria__caption"><span>Manos artesanas</span></div>
     </div>
-
     <div class="galeria__item reveal">
       <img src="assets/img/wounds_and_cracks-bread-8364737.webp"
            alt="Corteza perfecta"
@@ -274,7 +270,6 @@ include 'include/header.php';
            width="800" height="600">
       <div class="galeria__caption"><span>Corteza perfecta</span></div>
     </div>
-
   </div>
 </section>
 
